@@ -1,17 +1,7 @@
-use yew::prelude::*;
+mod components;
 
-#[function_component(App)]
-fn app() -> Html {
-    html! {
-    <>
-        <h1>{"Hi!"}</h1>
-        <div>
-            <h3>{"I'm tsusdere!"}</h3>
-        </div>
-    </>
-    }
-}
+use components::homepage_component::Homepage;
 
 fn main() {
-    yew::Renderer::<App>::new().render();
+    yew::Renderer::<Homepage>::new().render();
 }
