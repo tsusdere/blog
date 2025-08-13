@@ -1,5 +1,7 @@
 const Home = () => {
   return (
-    <p>Hello</p>
+    <p>Miku</p>
   )
 };
+
+export default Home;
